@@ -20,7 +20,7 @@ html {
 
 body {
     height: 100%;
-    background-color: #ecf0f1;
+    background-color: #f1f0ec;
     color: #0d1217;
     font-family: 'Vollkorn', serif;
     font-family: 'Arvo', serif;
@@ -115,4 +115,12 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+#projects > li {
+    margin-top: 40px;
+}
+
+p {
+    margin: 0px;
 }
