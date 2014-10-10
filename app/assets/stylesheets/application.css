@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #ecf0f1;
+    color: #0d1217;
+    font-family: 'Vollkorn', serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    padding-left: 40px;
+}
+
+#wrap {
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#main {
+    max-width: 580px;
+    float: right;
+    border-width: 0 0 0 2px;
+    border-style: none none none dotted;
+    border-color: #ccc;
+    padding-left: 20px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+#sidebar {
+    max-width: 300px;
+    float: left;
+    text-align: right;
+}
+
+.experience {
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold:hover {
+    color: #1bbc9b;
+    cursor: pointer;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #1bbc9b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1bbc9b;
+    text-decoration: none;
+}
+
+a:active {
+    color: #1bbc9b;
+    text-decoration: none;
+}
+
+#gravatar {
+    padding-top: 0;
+    border-radius: 50%;
+}
+
+ul { 
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}

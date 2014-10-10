@@ -1,0 +1,397 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:41:11 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/railties-4.1.5/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 15ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:53:39 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/railties-4.1.5/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:54:31 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.9ms)
+Completed 200 OK in 405ms (Views: 396.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 16:54:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 16:56:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:57:40 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in /home/kelly/git/kellyjosephprice.github.io/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title>Kellyjosephprice</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2652668072142124510_36660540'
+  app/controllers/static_pages_controller.rb:3:in `index'
+
+
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.7ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:58:14 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in /home/kelly/git/kellyjosephprice.github.io/app/assets/javascripts/application.js:3)):
+    3: <head>
+    4:   <title>Kellyjosephprice</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3665300356319927440_40970060'
+  app/controllers/static_pages_controller.rb:3:in `index'
+
+
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.7ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:59:29 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in /home/kelly/git/kellyjosephprice.github.io/app/assets/javascripts/application.js:3)):
+    3: <head>
+    4:   <title>Kellyjosephprice</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___841101585708943246_69952540508780'
+  app/controllers/static_pages_controller.rb:3:in `index'
+
+
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.9ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 16:59:32 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in /home/kelly/git/kellyjosephprice.github.io/app/assets/javascripts/application.js:3)):
+    3: <head>
+    4:   <title>Kellyjosephprice</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___841101585708943246_69952540508780'
+  app/controllers/static_pages_controller.rb:3:in `index'
+
+
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:00:14 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in /home/kelly/git/kellyjosephprice.github.io/app/assets/javascripts/application.js:3)):
+    3: <head>
+    4:   <title>Kellyjosephprice</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___841101585708943246_69952540508780'
+  app/controllers/static_pages_controller.rb:3:in `index'
+
+
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/kelly/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.9ms)
+Completed 200 OK in 73ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:00:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:01:17 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:09:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:11:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:12:38 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:12:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:12:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:39 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:12:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:15:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-09 17:16:05 -0700
