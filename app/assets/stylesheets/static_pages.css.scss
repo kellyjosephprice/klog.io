@@ -1,3 +1,30 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+section {
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#about {
+    background: #d1d5da;
+}
+
+#projects {
+    background: #a1a5aa;
+}
+
+#contact {
+    background: #51555a;
+}
+
+article {
+    background: rgba(0, 0, 0, .1);
+    position: absolute;
+    max-width: 600px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 30px;
+}

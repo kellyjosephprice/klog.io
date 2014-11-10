@@ -1,0 +1,43 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    font-family: 'Vollkorn', serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    padding-top: 91px;
+}
+
+.bold:hover {
+    color: #1bbc9b;
+    cursor: pointer;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #1bbc9b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1bbc9b;
+    text-decoration: none;
+}
+
+a:active {
+    color: #1bbc9b;
+    text-decoration: none;
+}
