@@ -1,34 +1,47 @@
-<section id="about" 
-  data-type="background"
-  data-speed="10"
-  >
-  <article>    
-    <img
-      src="http://www.gravatar.com/avatar/68f81a8a0f95e75a0c764d51ad40355b.png"
-      id="gravatar"
-     >
-    <p>
-      I'm a software engineer who grew up in the East Bay and
-      has lived in the South Bay for the last ten years. While 
-      working as a barista and then coffee roaster, I went to 
-      college part time. I got into CS classes and was offered 
-      an internship. I opted to start working in the industry instead of 
-      finishing school. When that began to not feel
-      challenging anymore, I set out to learn web development. 
-      Recently, I've just finished a course at AppAcademy.
-    </p>
-    <p>
-      I code because it's enjoyable, because I like to solve interesting 
-      problems, and because I like to make things. 
-    </p>
-  </article>
+<div id="about"></div>
+<section class="parallax parallax-1">
+  <div class="container">
+    <h1>about</h1>
+  </div>
+</section>
+
+<section class="content">
+  <div class="container">
+    <article class="media">
+      <!--
+      <a class="media-left" href="#">
+        <img class="img-rounded" src="assets/headshot.jpg">
+      </a>
+      -->
+      <div class="media-body">
+        <p>
+          I'm a software engineer who grew up in the East Bay and
+          has lived in the South Bay for the last ten years. While 
+          working as a barista and then coffee roaster, I went to 
+          college part time. I got into CS classes and was offered 
+          an internship. I opted to start working in the industry instead of 
+          finishing school. When that began to not feel
+          challenging anymore, I set out to learn web development. 
+          Recently, I've just finished a course at AppAcademy.
+        </p>
+        <p>
+          I code because it's enjoyable, because I like to solve interesting 
+          problems, and because I like to make things. 
+        </p>
+      </div>
+    </article>
+  </div>
 </section>
       
-<section id="projects" 
-  data-type="background"
-  data-speed="10"
-  >
-  <article>
+<div id="projects"></div>
+<section class="parallax parallax-2">
+  <div class="container">
+    <h1>projects</h1>
+  </div>
+</section>
+
+<section class="content">
+  <div class="container">
     <ul>
       <li>
         <%= link_to "Uncle Worm", "http://uncle-worm.herokuapp.com" %>
@@ -45,27 +58,50 @@
         </p>
       </li>
     </ul>
-  </article>
+  </div>
 </section>
 
-<section id="contact"
-  data-type="background"
-  data-speed="10"
-  >
-  <article>
-    <ul class="contact">
+<div id="social"></div>
+<section class="parallax parallax-3">
+  <div class="container">
+    <h1>social</h1>
+  </div>
+</section>
+
+<!--
+  icons from:
+  http://martz90.deviantart.com/art/Circle-Icons-Pack-371172325
+-->
+<section class="content">
+  <div class="container social">
+    <ul>
       <li>
-        <a href="mailto:kellyjosephprice@gmail.com">kellyjosephprice@gmail.com</a>
+        <a href="mailto:kellyjosephprice@gmail.com">
+          <img alt="kellyjosephprice@gmail.com" src="assets/gmail.png" />
+        </a>
       </li>
       <li>
-        <a href="http://github.com/kellyjosephprice">github</a>
+        <a href="http://github.com/kellyjosephprice">
+          <img alt="github" src="assets/GitHub-Mark-64px.png" />
+        </a>
       </li>
       <li>
-        <a href="http://kellyjosephprice.tumblr.com">blog</a>
+        <a href="https://www.linkedin.com/pub/kelly-price/22/760/a11">
+          <img alt="linkedin" src="assets/linkedin.png" />
+        </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/pub/kelly-price/22/760/a11">linkedin</a>
+        <a href="http://kellyjosephprice.tumblr.com">
+          <img alt="blog" src="assets/tumblr.png" />
+        </a>
       </li>
     </ul>
-  </article>
+  </div>
 </section>
+
+<!--
+<section
+  class="parallax parallax-4"
+  >
+</section>
+-->

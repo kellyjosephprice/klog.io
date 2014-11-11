@@ -1,30 +1,81 @@
-section {
-    height: 1000px;
+section.parallax {
+    height: 400px;
     margin: 0 auto;
     width: 100%;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#about {
-    background: #d1d5da;
-}
-
-#projects {
-    background: #a1a5aa;
-}
-
-#contact {
-    background: #51555a;
-}
-
-article {
-    background: rgba(0, 0, 0, .1);
+section.parallax .container {
     position: absolute;
-    max-width: 600px;
-    height: 100%;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 150px 30px;
+    bottom: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+section.parallax h1 {
+    text-shadow: rgba(0, 0, 0, 1) 0 0 12px rgba(0, 0, 0, 1);
+}
+
+section.parallax-1 {
+    background-image: image-url("bike-trail.png");
+}
+
+section.parallax-2 {
+    background-image: image-url("ruby-code.png");
+}
+
+// https://www.flickr.com/photos/dotpolka/3216198/in/photolist-5HSvSU-23446-pW6fx-999UyT-iAW3EK-hu4G-kPtyqt-pW6id-aWUg3z-3L5QC2-8xoFG-FEkJy-iAW6LY-doBjLN-6tAk2W-4DeYrK-99d2ss-5F5raX-tQUGc-6cSeRr-5cbS5o-aFbuaF-6o3WS-eatRNG-puBac4-6VKGGY-PPCG-pFnQpW-h8DDkF-8qLJ7g-5ZkMLW-oDRTg3-oqntC-8c1gdw-NVKWE-oqnoR-tEtUs-dro9Z-zR3Ea-796pNg-5fBXid-9QQk2-51mwQS-9xCoL6-53Hf68-4QP6As-7dDMRr-tJdD-xpb6-4oifsc
+section.parallax-3 {
+    background-image: image-url("https://farm1.staticflickr.com/3/3216198_10384bfc1b_o.jpg");
+}
+
+section.parallax-4 {
+    background-image: image-url("http://i.imgur.com/OqPng.jpg");
+}
+
+section.content {
+    max-width: 100%;
+    min-height: 500px;
+}
+
+section.content .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 120px 30px;
+}
+
+section.content img {
+    max-height: 240px;
+}
+
+section.content article {
+    padding: 15px;
+}
+
+section.content li {
+    list-style-type: none;
+}
+
+section.content .social {
+    ul {
+        padding: 0px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    li {
+        display: inline;
+        padding: 0;
+        margin: 0px 30px;
+    }
+
+    img {
+        height: 64px;
+    }
 }

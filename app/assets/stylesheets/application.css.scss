@@ -1,43 +1,33 @@
 /*
- *= require_tree .
+ *= require static_pages
  *= require_self
  */
 
 @import "bootstrap-sprockets";
+@import "bootstrap-theme";
 @import "bootstrap";
 
 body {
-    font-family: 'Vollkorn', serif;
-    font-family: 'Arvo', serif;
+    font-family: 'Open Sans Condensed', serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 main {
-    padding-top: 91px;
+    margin-top: 100px;
 }
 
-.bold:hover {
-    color: #1bbc9b;
-    cursor: pointer;
+nav .container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-a:link {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+nav.navbar {
+    border: 0px;
 }
 
-a:visited {
-    color: #1bbc9b;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #1bbc9b;
-    text-decoration: none;
-}
-
-a:active {
-    color: #1bbc9b;
-    text-decoration: none;
+nav .navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
