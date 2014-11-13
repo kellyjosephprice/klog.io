@@ -9,9 +9,10 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body data-spy="scroll" data-target=".navbar-pagelinks">
+<body data-spy="scroll" data-target="#navbar-pagelinks">
 
 <%= render "layouts/navbar" %>
+
 <main>
   <%= yield %>
 </main>

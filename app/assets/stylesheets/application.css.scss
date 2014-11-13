@@ -25,9 +25,27 @@ nav.navbar {
     border: 0px;
 }
 
+nav h1 {
+    margin: 0;
+}
+
+nav .navbar-header p {
+    line-height: 100px;
+    height: 100px;
+    margin: 0;
+}
+
 nav .navbar-nav li a {
     line-height: 100px;
     height: 100px;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+// lame hack to get bootstrap scrollspy offsets right
+div.smooth-scroll {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    top: -100px;
 }
