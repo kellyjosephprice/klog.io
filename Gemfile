@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.0.0'
+gem 'heroku-deflater', group: :production
 gem 'jquery-rails'
 gem 'jquery-smooth-scroll-rails'
 gem 'jbuilder', '~> 2.0'
