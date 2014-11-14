@@ -16,3 +16,4 @@ gem 'spring',        group: :development
 gem 'pg'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+gem 'unicorn-rails'
