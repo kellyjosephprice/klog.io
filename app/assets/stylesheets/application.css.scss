@@ -19,27 +19,33 @@ main {
     width: 100%;
 }
 
-nav .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 nav.navbar {
     border: 0px;
 }
 
-nav h1 {
-    margin: 0;
-}
+nav {
+    .container {
+        max-width: 1200px;
+    }
 
-nav .navbar-header p {
-    line-height: 100px;
-    height: 100px;
-    margin: 0;
-}
+    h1 {
+        margin: 0;
+    }
 
-nav .navbar-nav li a {
-    line-height: 100px;
-    height: 100px;
-    padding: 0 30px;
+    .navbar-header p, .navbar-nav li a, .navbar-header button {
+        line-height: 100px;
+        height: 100px;
+    }
+
+    .navbar-header p {
+        margin: 0;
+    }
+
+    .navbar-nav li a {
+        padding: 0 30px;
+    }
+
+    .navbar-header button {
+        padding: 0 30px;
+    }
 }
