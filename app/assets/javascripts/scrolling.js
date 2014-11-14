@@ -44,7 +44,21 @@ $(document).ready(function () {
     }
   };
 
+  var handleResize = function (event) {
+    var height = $(window).height();
+    var $anchors = $('.parallax .smooth-scroll');
+    var bottom = 176;
+
+    $anchors.each(function (index, obj) {
+      $(obj).css({
+        top: "auto",
+        bottom: "176px"
+      });
+    });
+  };
+
   $('body').css({ overflow: "hidden" });
   $(window).mousewheel(handleScroll);
+  $(window).resize(handleResize);
   $('a').smoothScroll();
 });
