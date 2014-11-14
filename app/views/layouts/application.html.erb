@@ -7,7 +7,8 @@
 
   <%= csrf_meta_tags %>
 </head>
-<body data-spy="scroll" data-target="#navbar-pagelinks">
+<!-- I don't know why offset=101 works -->
+<body data-spy="scroll" data-target="#navbar-pagelinks" data-offset="101">
 
   <%= render "layouts/navbar" %>
 

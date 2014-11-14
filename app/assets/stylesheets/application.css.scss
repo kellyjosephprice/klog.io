@@ -43,11 +43,3 @@ nav .navbar-nav li a {
     height: 100px;
     padding: 0 30px;
 }
-
-// lame hack to get bootstrap scrollspy offsets right
-div.smooth-scroll {
-    height: 1px;
-    width: 1px;
-    position: absolute;
-    top: -100px;
-}

@@ -1,5 +1,4 @@
-<section class="parallax parallax-1">
-  <div id="about" class="smooth-scroll"></div>
+<section class="parallax parallax-1" id="about">
   <div class="container">
     <h1>about</h1>
   </div>
@@ -33,8 +32,7 @@
   </div>
 </section>
       
-<section class="parallax parallax-2">
-  <div id="projects" class="smooth-scroll"></div>
+<section class="parallax parallax-2" id="projects">
   <div class="container">
     <h1>projects</h1>
   </div>
@@ -44,12 +42,6 @@
   <div class="container">
     <ul>
       <li>
-        <%= link_to "Uncle Worm", "http://uncle-worm.herokuapp.com" %>
-        <p>
-          A remake of an old TI-83 classic in pure javascript and HTML canvas drawing.
-        </p>
-      </li>
-      <li>
         <%= link_to "ramblr", "http://www.ramblr.co" %>
         <p>
           A yelp-like with a minimal design. It's a Backbone.js 
@@ -58,12 +50,17 @@
           Every API route is russian-doll cached.
         </p>
       </li>
+      <li>
+        <%= link_to "Uncle Worm", "http://uncle-worm.herokuapp.com" %>
+        <p>
+          A remake of an old TI-83 classic in pure javascript and HTML canvas drawing.
+        </p>
+      </li>
     </ul>
   </div>
 </section>
 
-<section class="parallax parallax-3">
-  <div id="social" class="smooth-scroll"></div>
+<section class="parallax parallax-3" id="social">
   <div class="container">
     <h1>social</h1>
   </div>

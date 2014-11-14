@@ -34,6 +34,7 @@ $(document).ready(function () {
 
     if ($target !== undefined) {
       $.smoothScroll({
+        offset: -100,
         scrollTarget: $target,
         afterScroll: function () {
           scrolling = false;
@@ -45,20 +46,32 @@ $(document).ready(function () {
   };
 
   var handleResize = function (event) {
-    var height = $(window).height();
-    var $anchors = $('.parallax .smooth-scroll');
-    var bottom = 176;
+    var $anchors = $('.parallax');
+    var windowHeight = $(window).height();
+    var tooSmall = false;
 
     $anchors.each(function (index, obj) {
+      var contentHeight = $(this).next('section').height();
+      var parallaxHeight = windowHeight - 100 - contentHeight;
+
+      if (parallaxHeight > 400) parallaxHeight = 400;
+      if (parallaxHeight < 100) parallaxHeight = 100;
+      if (contentHeight > windowHeight - 200) tooSmall = true;
+
       $(obj).css({
-        top: "auto",
-        bottom: "176px"
+        height: parallaxHeight + "px"
       });
     });
+
+    $('body').css({ overflow: (tooSmall) ? "auto" : "hidden" });
   };
 
   $('body').css({ overflow: "hidden" });
   $(window).mousewheel(handleScroll);
   $(window).resize(handleResize);
-  $('a').smoothScroll();
+  $('a').smoothScroll({
+    offset: -100
+  });
+
+  handleResize();
 });
