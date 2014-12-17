@@ -19,12 +19,17 @@ main {
     width: 100%;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 nav.navbar {
     border: 0px;
 }
 
 nav {
-    .container {
+    .container-fluid {
         max-width: 1200px;
     }
 
@@ -43,6 +48,7 @@ nav {
 
     .navbar-nav li a {
         padding: 0 30px;
+        font-size: 1.3em;
     }
 
     .navbar-header button {

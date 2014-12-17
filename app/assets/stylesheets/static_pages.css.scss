@@ -53,35 +53,15 @@ section.content {
 section.content .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 120px 30px;
-}
-
-section.content img {
-    max-height: 240px;
-}
-
-section.content article {
-    padding: 15px;
+    padding: 120px 15px;
 }
 
 section.content li {
     list-style-type: none;
 }
 
-section.content .social {
-    ul {
-        padding: 0px;
-        display: table;
-        margin: 0 auto;
-    }
-
-    li {
-        display: inline;
-        padding: 0;
-        margin: 0px 30px;
-    }
-
-    img {
-        height: 64px;
-    }
+section.content .social img {
+    display: block;
+    margin: 0 auto 64px auto;
+    height: 64px;
 }
