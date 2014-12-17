@@ -1,4 +1,4 @@
-kellyjosephprice.github.io
+www.klog.io
 ==========================
 
-My profile page. Redirects to [klog.io](http://klog.io) as I wanted to start using javascript.
+[klog.io](http://www.klog.io) 
